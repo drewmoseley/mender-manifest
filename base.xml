@@ -13,4 +13,7 @@
   <project name="mender.git" path="src/github.com/mendersoftware/mender" remote="mender"/>
   <project name="mender-api-gateway-docker.git" path="src/github.com/mendersoftware/mender-api-gateway-docker" remote="mender"/>
   <project name="useradm.git" path="src/github.com/mendersoftware/useradm" remote="mender"/>
+
+  <project name="pkg/errors.git" path="src/github.com/pkg/errors" remote="github"/>
+  <project name="urfave/cli.git" path="src/github.com/urfave/cli" remote="github"/>
 </manifest>
