@@ -3,14 +3,14 @@
   <remote fetch="git://github.com/" name="github" />
   <remote fetch="git://github.com/mendersoftware" name="mender"/>
 
-  <project name="deployments.git" path="deployments" remote="mender"/>
-  <project name="deviceadm.git" path="deviceadm" remote="mender"/>
-  <project name="deviceauth.git" path="deviceauth" remote="mender"/>
-  <project name="gui.git" path="gui" remote="mender"/>
-  <project name="integration.git" path="integration" remote="mender"/>
-  <project name="inventory.git" path="inventory" remote="mender"/>
-  <project name="mender-artifact.git" path="mender-artifact" remote="mender"/>
-  <project name="mender.git" path="mender" remote="mender"/>
-  <project name="mender-api-gateway-docker.git" path="mender-api-gateway-docker" remote="mender"/>
-  <project name="useradm.git" path="useradm" remote="mender"/>
+  <project name="deployments.git" path="src/github.com/mendersoftware/deployments" remote="mender"/>
+  <project name="deviceadm.git" path="src/github.com/mendersoftware/deviceadm" remote="mender"/>
+  <project name="deviceauth.git" path="src/github.com/mendersoftware/deviceauth" remote="mender"/>
+  <project name="gui.git" path="src/github.com/mendersoftware/gui" remote="mender"/>
+  <project name="integration.git" path="src/github.com/mendersoftware/integration" remote="mender"/>
+  <project name="inventory.git" path="src/github.com/mendersoftware/inventory" remote="mender"/>
+  <project name="mender-artifact.git" path="src/github.com/mendersoftware/mender-artifact" remote="mender"/>
+  <project name="mender.git" path="src/github.com/mendersoftware/mender" remote="mender"/>
+  <project name="mender-api-gateway-docker.git" path="src/github.com/mendersoftware/mender-api-gateway-docker" remote="mender"/>
+  <project name="useradm.git" path="src/github.com/mendersoftware/useradm" remote="mender"/>
 </manifest>
