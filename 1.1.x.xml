@@ -4,5 +4,5 @@
   <default revision="1.1.x" />
 
   <remove-project name="mender-artifact.git"/>
-  <project name="mender-artifact.git" path="mender-artifact" remote="mender" revision="2.0.x"/>
+  <project name="mender-artifact.git" path="src/github.com/mendersoftware/mender-artifact" remote="mender" revision="2.0.x"/>
 </manifest>
