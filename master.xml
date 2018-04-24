@@ -2,4 +2,5 @@
 <manifest>
   <include name="base.xml" />
   <default revision="master" />
+  <project name="mender-conductor.git" path="src/github.com/mendersoftware/mender-conductor" remote="mender"/>
 </manifest>
