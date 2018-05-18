@@ -11,4 +11,6 @@
 
   <remove-project name="inventory.git"/>
   <project name="inventory.git" path="src/github.com/mendersoftware/inventory" remote="mender" revision="master"/>
+
+  <remove-project name="mender-cli.git"/>
 </manifest>

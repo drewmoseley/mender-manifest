@@ -5,4 +5,6 @@
 
   <remove-project name="mender-artifact.git"/>
   <project name="mender-artifact.git" path="src/github.com/mendersoftware/mender-artifact" remote="mender" revision="2.1.x"/>
+
+  <remove-project name="mender-cli.git"/>
 </manifest>
