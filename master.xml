@@ -2,6 +2,4 @@
 <manifest>
   <include name="base.xml" />
   <default revision="master" />
-  <project name="mender-conductor.git" path="src/github.com/mendersoftware/mender-conductor" remote="mender"/>
-  <project name="mender-conductor-enterprise.git" path="src/github.com/mendersoftware/mender-conductor-enterprise" remote="mender"/>
 </manifest>
