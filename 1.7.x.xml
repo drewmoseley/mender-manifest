@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <include name="base.xml" />
-  <default revision="1.7.x" />
+  <remote fetch="git://github.com/mendersoftware" name="mender"/>
+  <default remote="mender"/>
 
-  <remove-project name="mender-artifact.git"/>
-  <project name="mender-artifact.git" path="src/github.com/mendersoftware/mender-artifact" remote="mender" revision="2.2.x"/>
+  <project name="deployments.git" path="src/github.com/mendersoftware/deployments" revision="1.6.x"/>
+  ### Skipping deviceadm. No version listed
+  <project name="deviceauth.git" path="src/github.com/mendersoftware/deviceauth" revision="1.7.x"/>
+  <project name="gui.git" path="src/github.com/mendersoftware/gui" revision="1.7.x"/>
+  <project name="integration.git" path="src/github.com/mendersoftware/integration" revision="1.7.x"/>
+  <project name="inventory.git" path="src/github.com/mendersoftware/inventory" revision="1.5.x"/>
+  <project name="mender.git" path="src/github.com/mendersoftware/mender" revision="1.7.x"/>
+  <project name="mender-api-gateway-docker.git" path="src/github.com/mendersoftware/mender-api-gateway-docker" revision="1.6.x"/>
+  <project name="mender-artifact.git" path="src/github.com/mendersoftware/mender-artifact" revision="2.4.x"/>
+  <project name="mender-cli.git" path="src/github.com/mendersoftware/mender-cli" revision="1.1.x"/>
+  <project name="mender-conductor.git" path="src/github.com/mendersoftware/mender-conductor" revision="1.2.x"/>
+  <project name="mender-conductor-enterprise.git" path="src/github.com/mendersoftware/mender-conductor-enterprise" revision="1.2.x"/>
+  <project name="tenantadm.git" path="src/github.com/mendersoftware/tenantadm" revision="master"/>
+  <project name="useradm.git" path="src/github.com/mendersoftware/useradm" revision="1.7.x"/>
 
-  <remove-project name="deviceadm.git"/>
-  <project name="deviceadm.git" path="src/github.com/mendersoftware/deviceadm" remote="mender" revision="master"/>
-
-  <remove-project name="inventory.git"/>
-  <project name="inventory.git" path="src/github.com/mendersoftware/inventory" remote="mender" revision="master"/>
-
-  <remove-project name="mender-cli.git"/>
-  <project name="mender-cli.git" path="src/github.com/mendersoftware/mender-cli" remote="mender" revision="master"/>
-
-  <remove-project name="mender-api-gateway-docker.git"/>
-  <project name="mender-api-gateway-docker.git" path="src/github.com/mendersoftware/mender-api-gateway-docker" remote="mender" revision="master"/>
-
-  <remove-project name="deployments.git"/>
-  <project name="deployments.git" path="src/github.com/mendersoftware/deployments" remote="mender" revision="master"/>
 </manifest>
