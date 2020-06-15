@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://github.com/mendersoftware" name="mender"/>
+  <default remote="mender"/>
+
+  <project name="create-artifact-worker.git" path="src/github.com/mendersoftware/create-artifact-worker" revision="1.0.x"/>
+  <project name="deployments.git" path="src/github.com/mendersoftware/deployments" revision="2.0.x"/>
+  <project name="deployments-enterprise.git" path="src/github.com/mendersoftware/deployments-enterprise" revision="2.0.x"/>
+  ### Skipping deviceadm. No version listed
+  <project name="deviceauth.git" path="src/github.com/mendersoftware/deviceauth" revision="2.3.x"/>
+  <project name="gui.git" path="src/github.com/mendersoftware/gui" revision="2.4.x"/>
+  <project name="integration.git" path="src/github.com/mendersoftware/integration" revision="2.4.x"/>
+  <project name="inventory.git" path="src/github.com/mendersoftware/inventory" revision="2.0.x"/>
+  <project name="inventory-enterprise.git" path="src/github.com/mendersoftware/inventory-enterprise" revision="2.0.x"/>
+  <project name="mender.git" path="src/github.com/mendersoftware/mender" revision="2.3.x"/>
+  <project name="mender-api-gateway-docker.git" path="src/github.com/mendersoftware/mender-api-gateway-docker" revision="2.2.x"/>
+  <project name="mender-artifact.git" path="src/github.com/mendersoftware/mender-artifact" revision="3.4.x"/>
+  <project name="mender-cli.git" path="src/github.com/mendersoftware/mender-cli" revision="1.4.x"/>
+  ### Skipping mender-conductor. No version listed
+  ### Skipping mender-conductor-enterprise. No version listed
+  <project name="tenantadm.git" path="src/github.com/mendersoftware/tenantadm" revision="2.0.x"/>
+  <project name="useradm.git" path="src/github.com/mendersoftware/useradm" revision="1.11.x"/>
+  <project name="useradm-enterprise.git" path="src/github.com/mendersoftware/useradm-enterprise" revision="1.11.x"/>
+  <project name="workflows.git" path="src/github.com/mendersoftware/workflows" revision="1.1.x"/>
+  <project name="workflows-enterprise.git" path="src/github.com/mendersoftware/workflows-enterprise" revision="1.1.x"/>
+
+</manifest>
