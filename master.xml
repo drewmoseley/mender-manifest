@@ -24,4 +24,5 @@
   <project name="workflows.git" path="src/github.com/mendersoftware/workflows" revision="master"/>
   <project name="workflows-enterprise.git" path="src/github.com/mendersoftware/workflows-enterprise" revision="master"/>
 
+  <project name="mender-stress-test-client.git" path="src/github.com/mendersoftware/mender-stress-test-client" revision="master"/>
 </manifest>
